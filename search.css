@@ -1,0 +1,183 @@
+
+    html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    }
+    .pull-right {
+    float: right;
+    }
+    .btn {
+    border: 0px;
+    padding: .5rem;
+    cursor: pointer;
+    }
+    .btn:hover {
+    background-color: #333;
+    }
+    .btn-default {
+    }
+    #player {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.1);
+    }
+    #player .heading {
+    padding: .5rem 1rem;
+    color: #fff;
+    background-color: #ff0000;
+    margin-top: 15px;
+    }
+    #playlist-container {
+    position: absolute;
+    top: 260px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto;
+    width: 400px;
+    }
+    #screen {
+    height: 190px;
+    background-color: #282828;
+    background-image: url(http://media.socastsrm.com/wordpress/wp-content/blogs.dir/456/files/2017/08/NEW-YOUTUBE-LOGO-2017-BILLBOARD-1548.jpg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    #playlist-container li {
+    list-style: none;
+    }
+    #playlist-container li a.empty-playlist-label{
+        padding: .5rem;
+    }
+    li.playlist-item .list-item-select-button {
+    display: table-cell;
+    width: 300px;
+    padding: .5rem;
+    cursor: pointer;
+    }
+    li.playlist-item a.list-item-remove-button{
+    display: table-cell;
+    width: 50px;
+    text-align: right;
+    padding:  .5rem;
+    }
+    li.playlist-item a.list-item-move-button {
+    display: table-cell;
+    width: 10px;
+    text-align: right;
+    padding:  .5rem;
+    color: #fff;
+    }
+    li.playlist-item:hover a.list-item-move-button {
+    color: #999;
+    }
+    .playlist-item .btn {
+    padding: .2rem .5rem;
+    color: #ddd;
+    background-color: transparent;
+    }
+    .playlist-item .btn:hover {
+    color: #999;
+    }
+    .heading .btn {
+    padding: .2rem .5rem;
+    color: #ddd;
+    background-color: #ff0000;
+    }
+    .heading .btn:hover {
+    color: #fff;
+    }
+    
+    #searcher {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 400px;
+    right: 0px;
+    height: 100%;
+    }
+    #searcher h3{
+    text-align: center;
+    }
+    #search-container {
+    position: absolute;
+    top: 120px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto;
+    width: 100%;
+    }
+    a.searchresult-item {
+    display: block;
+    padding: .5rem;
+    margin-top: 5px;
+    cursor: pointer;
+    }
+    a.searchresult-item:hover {
+    background-color: #ff0000;
+    color: #fff;
+    }
+    a.searchresult-item span.image {
+    border-radius: 30px;
+    width: 25%;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+    a.searchresult-item span.image img {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    max-width: 100%;
+    max-height:100%;
+    }
+    a.searchresult-item span.title {
+    display: inline-block;
+    width: 70%;
+    margin: 0px;
+    padding: 0px;
+    }
+    #buttons {
+    padding: 1rem 1.5rem;
+    color: #fff;
+    box-shadow: 1px 4px 1px 0 rgba(0,0,0,0.1);
+    background-color: #282828;
+    }
+    #buttons .query-container {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    display: table;
+    padding: 5px;
+    border-collapse: separate;
+    }
+    #buttons .query-container input,
+    #buttons .query-container button {
+    border: 0px;
+    background-color: #fff;
+    padding: 0px;
+    }
+    #buttons .query-container input {
+    width: 100%;
+    display: table-cell;
+    }
+    #buttons .query-container span {
+    width: 1%;
+    display: table-cell;
+    }
