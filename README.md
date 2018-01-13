@@ -2,4 +2,4 @@
 
 Winamp for youtube!
 
-Open the (player)[search.html].
+Open the [player](search.html).
